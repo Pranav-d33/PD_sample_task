@@ -1,0 +1,10 @@
+ipykernel
+pandas
+numpy
+google-generativeai
+langchain
+python-dotenv
+streamlit 
+tqdm
+langchain-google-genai
+fpdf2
