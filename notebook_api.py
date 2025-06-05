@@ -9,7 +9,7 @@ from datetime import datetime
 # Configure Gemini API key from environment variable
 api_key = os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 class StyledPDF(FPDF):
     def header(self):
